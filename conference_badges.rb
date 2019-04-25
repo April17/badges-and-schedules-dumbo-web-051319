@@ -16,3 +16,13 @@ def assign_rooms(array)
   end
   return ary
 end
+def printer(name)
+  ary = batch_badge_creator(name)
+  for i in 0...ary.lenght
+    puts ary[i].chomp
+  end
+  ary = assign_rooms(name)
+  for i in 0...ary.length
+    puts ary[i].chomp
+  end
+end

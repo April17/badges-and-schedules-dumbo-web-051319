@@ -11,8 +11,8 @@ def batch_badge_creator(array)
 end
 def assign_rooms(array)
   ary = []
-  for i in 0...array.length
-    ary[i] = "Hello, #{array[i]}! You'll be assigned to room #{i+1}!"
+  for i in 1..array.length
+    ary[i] = "Hello, #{array[i]}! You'll be assigned to room #{i}!"
   end
   return ary
 end

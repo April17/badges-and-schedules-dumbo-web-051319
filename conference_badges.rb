@@ -4,7 +4,7 @@ def badge_maker(name)
 end
 def batch_badge_creator(array)
   ary = []
-  for i in 0..array.length
+  for i in 0..(array.length)
     ary[i] = badge_maker(array[i])
   end
   return ary
